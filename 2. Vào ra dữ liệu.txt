@@ -1,0 +1,21 @@
+1. Nhập từ bàn phím:
+  Sử dụng lớp Scanner:
+    import java.util.Scanner;
+    String var= new Scanner(System.in).nextLine();
+    --syntax:
+    	<data_type> <var>= new Scanner(System.in).nextLine();
+	--------------------------------------------------------
+	*Note: Có thể đổi thành nextFloat, nextInt... để nhập data_type cần dùng.
+	--------------------------------------------------------	
+	Có thể dùng đối tượng để thay thế new Scanner(System.in); :
+		Scanner s= new Scanner(System.in);
+		String str= s.nextLine();
+	*Note: Sử dụng tất cả là nextLine để tránh trôi lệnh(thừa /n trong bộ nhớ đệm),
+	Xong ta ép kiểu từ string-> data_type cần dùng.
+    --Cú pháp ép kiểu:
+	 <Data_type_class>.parse<Data_type_class(Special: Int)>(<var>);
+
+2. Xuất ra màn hình:
+    --Syntax:
+	System.out.print(""); //sout
+

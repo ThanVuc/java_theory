@@ -1,0 +1,23 @@
+1. Đối tượng : Gồm Attribute and method
+2. Làm sao để tạo ra đối tượng trên máy tính?
+	- Tạo ra 1 khuôn cho tất cả đối tượng(class) có chung thuộc tính
+và hành động
+	
+3. Lớp:
+	- Lớp là 1 khuôn mẫu định nghĩa thuộc tính và phương thức chung cho
+tất cả các đối tượng
+
+4. Đối tượng:
+	- Đối tượng là 1 thể hiện của lớp thuộc về 1 lớp
+
+Lớp --->(định nghĩa) Đối tượng --->(thực thi) Hành động/ Phương thức
+
+5. Khai báo lớp:
+	Class <class_name>{
+		attribute
+		constructors
+		method_1
+		....
+	}
+
+6. Quan điểm của java: All method have to object perform

@@ -1,0 +1,21 @@
+1. Exception:
+	- Runtime Exception
+		+ Unchecked exceptions
+	- Checked Exception
+
+2. Cú pháp xử lý ngoại lệ:
+	try{
+		Các đoạn code có khả năng dính ngoại lệ
+	} catch (exception e){
+		Nếu code trên try bị lỗi thì nhảy vào catch
+	} finally{
+		lệnh luôn được thực thi dù lỗi hay không
+	}
+
+3. Cách chồng catch():
+	Catch con luôn ở trên catch cha(cụ thể là con của tổng quát)
+	try {}
+	catch(exception1 e){}
+	catch(exception2 e){}
+	...
+4. Nghiên cứu thêm throw và throws để biết cách đưa ngoại lệ

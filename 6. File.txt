@@ -1,0 +1,14 @@
+1. Định nghĩa
+	Đọc Ghi file: IO chính là thao tác đọc ghi dữ liệu với File
+	Input file: FileReader, FileInputStream....
+	Output file: FileWriter, FileOuputStream....
+
+2. Các cách đọc ghi file:
+	- c1: Scanner
+	- c2: Sử dụng File và File Reader/FileWriter
+	- c3: Sử dụng BefferedReader/BuferedWriter
+	Ưu tiên sử dụng cách 3: Phương thức readLine() để đọc file theo dòng
+3. Các bước đọc ghi file:
+	1/ Mở file
+	2/ Thao tác với file
+	3/ Đóng file

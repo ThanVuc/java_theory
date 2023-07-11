@@ -1,0 +1,13 @@
+1. Tên Class: 
+	- Là danh từ, chữ cái đầu tiên viết hoa.
+
+2. Tên method:
+	- Là động từ, chữ cái đầu tiên viết thường, các chữ cái đầu tiên
+của mỗi từ viết hoa.
+
+3. Tên biến, thuộc tính:
+	- Giống method.
+
+4. Tên hằng số:
+	- Là 1 danh từ.
+	- Viết hoa toàn bộ các từ. 

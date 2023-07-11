@@ -1,0 +1,35 @@
+* Quan điểm của Java:
+	+ Tất cả đối tượng phải xuất phát từ lớp (class)
+	+ Lớp tạo ra đối tượng -> method
+
+1. Lớp Wrapper:
+	- Sử dụng để chuyển đổi qua lại giữa 1 kiểu dữ liệu cơ sở sang kiểu 
+dữ liệu đối tượng.
+
+2. Chuyển từ cơ sở -> Wrapper:
+	int a=10;
+	Integer j= new Integer(a); 
+	Or
+	Integer j=a;
+
+3. Wrapper-> cơ sở:
+	int i=10;
+	Integer i1=i;
+	int i2= i1.intValue();
+
+4. Casting
+	<Data_type_class>.parse<Data_type_class(Special: Int)>(<var>);
+
+5. ToString(x);
+	Chuyển từ số -> chuỗi
+	syntax:
+	String <var>= <Data_type>.toString(x);
+
+6. valueOf(x):
+	- Chuyển 1 kiểu dữ liệu bất kì sang chuỗi
+	syntax:
+	string <var>= <Data_type>.valueOf(var).
+7. equal() & equalIgnoreCase(): 
+	So sánh chuỗi phân biệt hoa thường và không
+
+

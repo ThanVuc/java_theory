@@ -1,0 +1,30 @@
+1. ArrayList(Mảng động):
+Syntax:
+	import java.util.ArrayList;
+     -Không chỉ định kiểu dữ liệu:
+	ArrayList a= new ArrayList();
+     -Chỉ định kiểu dữ liệu:
+	ArrayList<data_type_class> i= new ArrayList<data_type_class>();
+- Khi khai báo không chỉ định kiểu dữ liệu, thì ta khi truy xuất phải ép kiểu
+dữ liệu. VD:
+	ArrayList a= new ArrayList();
+	a.add("Cuong");
+	a.add(True);
+	a.add(1);
+	a.add(2.5);
+	Integer x= (Integer)a.get(2);
+- Và đương nhiên, khi đã chỉ định kiểu dữ liệu thì không cần phải ép kiểu.
+
+2. Một số phương thức:
+	- boolean add(Object): Thêm vào cuối
+	- void add(int index, Object ele): Chèn thêm vào vị trí index.
+	- boolean remove(int Object): Xóa 1 phần tử trong danh sách.
+	- Object remove(int index): Xóa ở index
+	- void clear() : Xóa sạch.
+	- Object set(index, Object ele): Thay đổi phần tử ở index, Trả về a[index]
+	- Object get(index) : Truy cập vị trí index
+	- int size(): Trả về số phần tử của mảng.
+	- boolean contains(Object): Tìm đối tượng (gần đúng) có trong danh sách
+hay không.
+	- boolean isEmpty(): Kiểm tra mảng có rỗng hay không
+	- int indexOf(object ele): Tìm vị trí phần tử
